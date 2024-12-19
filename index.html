@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tanvi Patil</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="new.css">
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .img-hover {
+            overflow: hidden;
+        }
+
+        .img-hover img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .img-hover:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100">
+    <div class="row" style="height: 7vh;">
+        <div class="col-2" style="color: rgb(210, 10, 10);text-align: center; font-size: 3vh; margin-top: 3vh; font-weight: bold;">Tanvi Patil</div>
+        <div class="col-10">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#my-work" style="font-weight: bold;color:rgb(210, 10, 10);">My Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-me" style="font-weight: bold;color: rgb(210, 10, 10);">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <hr style="height:2px;border-width:0;color:rgb(210, 10, 10);background-color:rgb(210, 10, 10)">
+    <div class="row fade-in" style="font-size: 20vh; margin-left: 3cm;">PORTFOLIO</div>
+    <div class="row fade-in" style="margin-left: 3cm;">
+        <div class="col-6" style="font-size: 3vh;">Hello, my name is Tanvi.
+            I’m a passionate Communication Designer. When I’m not working, you’ll often find me immersed in a good book or enjoying the water through swimming.<br><br>Whether I’m behind the lens, designing layouts, or crafting strategies, I approach every project with creativity, precision, and a unique perspective.
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4"><img class="w-75 h-100 img-fluid rounded" src="images/tanvi.jpg"></div>
+    </div>
+    <hr style="height:2px;border-width:0;color:rgb(210, 10, 10);background-color:rgb(210, 10, 10)">
+    <div class="row fade-in" style="height: 10vh;margin-top: 10vh;">
+        <div class="col-12 text-center text-danger fs-1">My Work</div>
+    </div>
+    <div class="row align-items-center justify-content-center fade-in" style="height: 50vh; margin-top: 2vh;">
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center img-hover mb-3">
+            <a href="pizza.html">
+                <img class="img-fluid rounded" src="images/PIZZA MOCKUP (1).JPG" alt="Pizza">
+                <p class="mt-2 fs-5 text-danger">Pizza Packaging</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center img-hover mb-3">
+            <a href="kimirica.html">
+                <img class="img-fluid rounded" src="images/kimirica 3d mockup (1).JPG" alt="Kimirica">
+                <p class="mt-2 fs-5 text-danger">Candle Packaging</p>
+            </a>
+        </div>
+    </div>
+    <div class="row fade-in" style="height: 10vh;"></div>
+    <div class="row align-items-center justify-content-center fade-in" style="height: 50vh;">
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center img-hover mb-3">
+            <a href="illustration.html">
+                <img class="img-fluid rounded" src="images/illu.jpg">
+                <p class="mt-2 fs-5 text-danger">Illustrations</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center img-hover mb-3">
+            <a href="zine.html">
+                <img class="img-fluid rounded" src="images/IMG_6712.jpg" alt="Zine">
+                <p class="mt-2 fs-5 text-danger">Through the Witch's Eye: A Zine</p>
+            </a>
+        </div>
+    </div>
+    <div class="row fade-in" style="height: 10vh; margin-top: 20vh;">
+        <div class="col-12 text-center fs-1" style="background-color: rgb(210, 10, 10);color: #ffffd1;">Get in Touch</div>
+    </div>
+    <div id="contact-me" class="fade-in" style="background-color: rgb(210, 10, 10); padding: 5vh 3vh; text-align:center;">
+        <p style="font-size: 4vh; color: #ffffd1;">
+            I’d love to hear from you! Feel free to reach out using the information below.
+        </p>
+        <div style="margin-top: 4vh; font-size: 5vh;text-align: center;">
+            <p>
+                <a href="mailto:tanvipatilnasik2gmail.com" style="color: #ffffd1; text-decoration: none;">Email</a><br>
+                <a href="https://www.instagram.com/yourusername" target="_blank" style="color: #ffffd1; text-decoration: none;">Instagram</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
